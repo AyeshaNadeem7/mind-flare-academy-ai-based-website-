@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-playfair: 'Playfair Display', Georgia, serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --cream-bg: #FAF3E3;
+  --navy-primary: #1E2A44;
+  --flame-orange: #F7941E;
+  --flame-yellow: #FFC93C;
+  --teal-accent: #2BA8C4;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--cream-bg);
+  color: var(--navy-primary);
+  font-family: var(--font-inter);
+}
+
+body {
+  background-color: #FAF3E3;
+  color: #1E2A44;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF3E3;
+}
+::-webkit-scrollbar-thumb {
+  background: #2BA8C4;
+  border-radius: 9999px;
+  border: 2px solid #FAF3E3;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F7941E;
+}
+
+/* Smooth glass styles */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(239, 230, 207, 0.8);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(223, 197, 137, 0.35);
+  box-shadow: 0 10px 25px -5px rgba(30, 42, 68, 0.05), 0 8px 10px -6px rgba(30, 42, 68, 0.02);
+}
+
+/* Glow effects */
+.flame-glow {
+  box-shadow: 0 4px 20px -2px rgba(247, 148, 30, 0.4);
+}
+
+.flame-glow:hover {
+  box-shadow: 0 8px 30px rgba(247, 148, 30, 0.6);
+}
+
+/* Badge pulse */
+@keyframes flamePulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(247, 148, 30, 0.4);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 10px rgba(247, 148, 30, 0);
+  }
+}
+
+.animate-flame-pulse {
+  animation: flamePulse 2.5s infinite;
+}
+
+/* Custom selection */
+::selection {
+  background-color: #F7941E;
+  color: #FFFFFF;
+}

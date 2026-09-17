@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#F7941E" />
+      <stop offset="60%" stop-color="#FFA800" />
+      <stop offset="100%" stop-color="#FFC93C" />
+    </linearGradient>
+    <linearGradient id="flameInner" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#FBBF24" />
+    </linearGradient>
+  </defs>
+
+  <!-- Stars / Sparkles -->
+  <g fill="#F7941E" opacity="0.9">
+    <!-- Top Sparkle -->
+    <path d="M 275 75 Q 275 88 285 88 Q 275 88 275 101 Q 275 88 265 88 Q 275 88 275 75 Z" />
+    <!-- Left Top Sparkle -->
+    <path d="M 205 130 Q 205 139 213 139 Q 205 139 205 148 Q 205 139 197 139 Q 205 139 205 130 Z" />
+    <!-- Left Lower Sparkle -->
+    <path d="M 175 190 Q 175 197 181 197 Q 175 197 175 204 Q 175 197 169 197 Q 175 197 175 190 Z" />
+    <!-- Right Middle Sparkle -->
+    <path d="M 305 195 Q 305 202 311 202 Q 305 202 305 209 Q 305 202 299 202 Q 305 202 305 195 Z" />
+  </g>
+
+  <!-- Flame Shape -->
+  <path d="M 250 280 C 230 260 210 230 210 195 C 210 160 230 135 240 115 C 243 110 248 100 242 70 C 255 90 270 120 270 150 C 270 160 268 170 264 178 C 275 165 285 140 285 140 C 295 165 295 200 280 235 C 270 260 260 270 250 280 Z" fill="url(#flameGrad)" />
+  <!-- Inner Flame Tongue -->
+  <path d="M 250 275 C 238 255 228 230 230 200 C 235 185 245 170 247 150 C 255 170 265 190 265 220 C 265 245 258 265 250 275 Z" fill="url(#flameInner)" opacity="0.85" />
+
+  <!-- Open Book Base (Navy) -->
+  <g fill="#1E2A44">
+    <!-- Left Page Layers -->
+    <path d="M 245 320 C 200 320 150 290 95 295 C 115 260 130 230 145 220 C 180 245 215 255 245 258 Z" />
+    <path d="M 245 305 C 195 305 155 270 115 265 C 130 240 145 220 160 215 C 190 235 220 245 245 248 Z" fill="#2B3C61" />
+    <!-- Right Page Layers -->
+    <path d="M 255 320 C 300 320 350 290 405 295 C 385 260 370 230 355 220 C 320 245 285 255 255 258 Z" />
+    <path d="M 255 305 C 305 305 345 270 385 265 C 370 240 355 220 340 215 C 310 235 280 245 255 248 Z" fill="#2B3C61" />
+    <!-- Book Spine Center -->
+    <path d="M 244 322 C 248 326 252 326 256 322 L 254 255 L 246 255 Z" fill="#1E2A44" />
+  </g>
+
+  <!-- Typography: MIND FLARE -->
+  <text x="250" y="375" font-family="'Playfair Display', Georgia, serif" font-size="44" font-weight="800" fill="#1E2A44" text-anchor="middle" letter-spacing="4">
+    MIND FLARE
+  </text>
+
+  <!-- Subtitle with Teal Flanking Bars -->
+  <!-- Left Teal Bar -->
+  <line x1="65" y1="408" x2="145" y2="408" stroke="#2BA8C4" stroke-width="4.5" stroke-linecap="round" />
+  <!-- ACADEMY Text -->
+  <text x="250" y="415" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="21" font-weight="700" fill="#1E2A44" text-anchor="middle" letter-spacing="11">
+    ACADEMY
+  </text>
+  <!-- Right Teal Bar -->
+  <line x1="355" y1="408" x2="435" y2="408" stroke="#2BA8C4" stroke-width="4.5" stroke-linecap="round" />
+</svg>
