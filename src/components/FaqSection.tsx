@@ -11,7 +11,7 @@ interface FaqItem {
 const FAQ_LIST: FaqItem[] = [
   {
     q: "What classes does Mind Flare Academy offer?",
-    a: "We offer classes from Nursery to Class 12, covering Matric and Intermediate (all groups: Pre-Medical, Pre-Engineering, ICS, Commerce, Arts), plus entry test preparation (MDCAT/ECAT/NET), Bachelor's-level subject tutoring, and short courses in digital skills, IELTS, and CSS/PMS.",
+    a: "We offer comprehensive academic coaching from Nursery to Class 12, covering Pre-Primary, Primary, Middle, Matric, and Intermediate (all groups: Pre-Medical, Pre-Engineering, ICS, Commerce, Arts) as well as Bachelor's-level subject tutoring.",
   },
   {
     q: "Where is Mind Flare Academy located?",
@@ -34,14 +34,6 @@ const FAQ_LIST: FaqItem[] = [
     a: "Subject-wise fees range from PKR 1,800 to PKR 3,000 per month. Full group packages: Pre-Medical & Pre-Engineering PKR 9,500/mo (Class 11) & PKR 10,000/mo (Class 12); ICS PKR 9,000/9,500; Commerce PKR 8,500/9,000; General Arts PKR 7,500/8,000.",
   },
   {
-    q: "Do you offer MDCAT / ECAT preparation?",
-    a: "Yes! We offer a full 6-month MDCAT and ECAT preparation program (PKR 35,000 and PKR 32,000 respectively, or PKR 6,500/6,000 monthly) as well as a 6-8 week intensive crash course (PKR 15,000) closer to test dates, including 12 computerized mock tests.",
-  },
-  {
-    q: "What short courses do you offer?",
-    a: "We offer Graphic Designing (PKR 8,000), Web Development (PKR 8,500), Python & AI Basics (PKR 6,500), Data Science (PKR 9,000), Freelancing & Digital Marketing (PKR 6,000), WordPress (PKR 5,000), Microsoft Office (PKR 4,000), IELTS (PKR 9,000), Spoken English (PKR 5,000), and CSS/PMS Coaching (PKR 12,000).",
-  },
-  {
     q: "Is there an admission fee?",
     a: "Yes, a one-time Admission Fee of PKR 2,000 and a Registration/Prospectus/ID Card Fee of PKR 500 apply to all new students across all levels.",
   },
@@ -59,7 +51,7 @@ const FAQ_LIST: FaqItem[] = [
   },
   {
     q: "When can I get admission?",
-    a: "Admissions are open all year round. The best time to join Matric/Inter classes is at the start of the academic session (March-April), and for MDCAT/ECAT batches right after 2nd year board exams (June-July).",
+    a: "Admissions are open all year round. The best time to join Matric/Inter classes is at the start of the academic session (March-April).",
   },
   {
     q: "What documents are needed for admission?",
@@ -104,7 +96,7 @@ export default function FaqSection({ onOpenChat }: { onOpenChat: () => void }) {
           <Search className="w-4 h-4 text-navy-600 absolute left-4 top-1/2 -translate-y-1/2" />
           <input
             type="text"
-            placeholder="Search FAQs (e.g. fees, timings, MDCAT, admission)..."
+            placeholder="Search FAQs (e.g. fees, timings, admission, matric)..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full pl-11 pr-4 py-3 rounded-full bg-white border border-cream-400 text-xs sm:text-sm text-navy-900 focus:outline-none focus:ring-2 focus:ring-flame-orange shadow-sm"

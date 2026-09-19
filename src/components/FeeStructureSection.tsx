@@ -24,7 +24,6 @@ export default function FeeStructureSection() {
     "5.2": "Middle Section",
     "5.3": "Matric Section",
     "5.4": "Intermediate Section",
-    "5.5": "Entry Test & Short Courses",
     "5.6": "Admission & Charges",
   };
 

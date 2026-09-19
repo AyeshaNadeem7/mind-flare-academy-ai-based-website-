@@ -324,8 +324,8 @@ export default function AuthModal({
                     <option value="Class 11 - Pre-Medical">Class 11 - Pre-Med</option>
                     <option value="Class 12 - Pre-Engineering">Class 12 - Pre-Eng</option>
                     <option value="ICS Computer Science">ICS Computer Science</option>
-                    <option value="MDCAT / ECAT Batch">MDCAT / ECAT Batch</option>
-                    <option value="Digital Short Course">Digital Short Course</option>
+                    <option value="I.Com Commerce">I.Com Commerce</option>
+                    <option value="Bachelor Support">Bachelor Support</option>
                     <option value="Faculty Department">Faculty Department</option>
                   </select>
                 </div>

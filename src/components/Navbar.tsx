@@ -28,7 +28,6 @@ export default function Navbar({ onOpenAuth, currentUser, onLogout }: NavbarProp
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Classes", href: "#classes" },
-    { name: "Courses", href: "#courses" },
     { name: "Fee Structure", href: "#fees" },
     { name: "Admission", href: "#admissions" },
     { name: "Contact", href: "#contact" },

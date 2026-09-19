@@ -50,12 +50,12 @@ export default function About() {
     },
     {
       title: "Dedicated Preparation Tracks",
-      desc: "Tailored tracks for Matric (BISE), Intermediate (FSc/ICS/I.Com), MDCAT/ECAT entry tests, and in-demand digital short courses.",
+      desc: "Tailored tracks for Nursery-Class 8 foundation, Matric (BISE), Intermediate (FSc/ICS/I.Com), and Bachelor degree support.",
       icon: BookOpen,
     },
     {
       title: "Free Doubt-Clearing Sessions",
-      desc: "Dedicated extra hours, weekend tutorial sessions, and solved guess papers provided before major board and entrance exams.",
+      desc: "Dedicated extra hours, weekend tutorial sessions, and solved guess papers provided before major board and class exams.",
       icon: Zap,
     },
     {
@@ -79,7 +79,7 @@ export default function About() {
           </h2>
           <p className="text-sm sm:text-base text-navy-800/80 leading-relaxed">
             Located in <strong>Jhanda Chichi, Rawalpindi</strong>, Mind Flare Academy is dedicated to helping
-            students build solid academic foundations from early childhood right through to university entrance and professional life.
+            students build solid academic foundations from early childhood right through to intermediate board exams and university subject support.
           </p>
           <div className="w-20 h-1 bg-gradient-to-r from-flame-orange to-teal-accent mx-auto rounded-full" />
         </div>
@@ -108,7 +108,7 @@ export default function About() {
               </li>
               <li className="flex items-start gap-2.5">
                 <CheckCircle className="w-4 h-4 text-flame-orange flex-shrink-0 mt-0.5" />
-                <span>Prepare students for board exams, university entry tests, and future careers with confidence.</span>
+                <span>Prepare students for board exams and academic excellence with confidence.</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <CheckCircle className="w-4 h-4 text-flame-orange flex-shrink-0 mt-0.5" />
@@ -125,13 +125,12 @@ export default function About() {
               </div>
               <div>
                 <h3 className="font-serif font-bold text-xl text-navy-900">Our Vision</h3>
-                <p className="text-xs text-navy-700">Academic excellence & practical digital readiness</p>
+                <p className="text-xs text-navy-700">Academic excellence & conceptual mastery</p>
               </div>
             </div>
             <p className="text-sm text-navy-800 leading-relaxed mb-4">
               To become the leading academy in <strong>Rawalpindi</strong> known for producing top position holders
-              in <strong>Matric, Intermediate, and MDCAT/ECAT entry tests</strong>, while also equipping students with
-              modern digital, freelance, and language skills for the future job market.
+              in <strong>Matric and Intermediate board exams</strong>, while delivering exceptional foundational clarity and university degree coaching support.
             </p>
             <div className="p-3 bg-cream-200 rounded-xl border border-cream-300 text-xs text-navy-900 font-medium">
               💡 <em>"Our methodology connects fundamental theory with exam-oriented speed and analytical problem solving."</em>
@@ -146,12 +145,12 @@ export default function About() {
               <span className="text-xs font-bold text-flame-orange uppercase tracking-wider">Official Schedules</span>
               <h3 className="font-serif font-bold text-2xl text-navy-900">Flexible Academy Shift Timings</h3>
               <p className="text-xs sm:text-sm text-navy-700 mt-1">
-                4-Hour structured shifts designed around school and professional timetables.
+                4-Hour structured shifts designed around school and college timetables.
               </p>
             </div>
             <div className="flex items-center gap-2">
               <span className="px-3 py-1 text-xs font-bold bg-navy-900 text-white rounded-full">
-                All Grades: Nursery – Class 12 & Short Courses
+                All Grades: Nursery – Class 12 & Degree Support
               </span>
             </div>
           </div>
@@ -166,7 +165,7 @@ export default function About() {
               </div>
               <p className="text-2xl font-black text-navy-900 mb-1">8:00 AM – 12:00 PM</p>
               <p className="text-xs text-navy-700">
-                <strong>Best suited for:</strong> School-going students (afternoon/evening school shift) & short digital course learners.
+                <strong>Best suited for:</strong> School-going students (afternoon/evening school shift) and morning learners.
               </p>
             </div>
 
@@ -179,7 +178,7 @@ export default function About() {
               </div>
               <p className="text-2xl font-black text-navy-900 mb-1">3:00 PM – 7:00 PM</p>
               <p className="text-xs text-navy-700">
-                <strong>Best suited for:</strong> Morning school-going students, college attendees, and working individuals.
+                <strong>Best suited for:</strong> Morning school-going students and college attendees.
               </p>
             </div>
           </div>

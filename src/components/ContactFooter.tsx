@@ -41,7 +41,7 @@ export default function ContactFooter() {
               <Logo size="lg" onDark />
             </div>
             <p className="text-xs sm:text-sm text-navy-200 leading-relaxed max-w-sm">
-              Mind Flare Academy is a premier coaching institute in Jhanda Chichi, Rawalpindi. We provide concept-based coaching from Nursery to Class 12, MDCAT/ECAT entry tests, and digital short courses.
+              Mind Flare Academy is a premier academic coaching institute in Jhanda Chichi, Rawalpindi. We provide concept-based coaching from Nursery to Class 12 and Bachelor's level degree support.
             </p>
             <div className="pt-2 flex items-center gap-3">
               <a
@@ -134,12 +134,6 @@ export default function ContactFooter() {
                 <a href="#classes" className="hover:text-flame-yellow transition flex items-center gap-1">
                   <ChevronRight className="w-3 h-3 text-teal-accent" />
                   <span>Classes (Nursery-12)</span>
-                </a>
-              </li>
-              <li>
-                <a href="#courses" className="hover:text-flame-yellow transition flex items-center gap-1">
-                  <ChevronRight className="w-3 h-3 text-teal-accent" />
-                  <span>Short IT Courses</span>
                 </a>
               </li>
               <li>

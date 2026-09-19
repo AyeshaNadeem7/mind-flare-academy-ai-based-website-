@@ -14,7 +14,7 @@ export const KNOWLEDGE_BASE_CHUNKS: KnowledgeChunk[] = [
 - Email: mindflareacademy@gmail.com
 - Address: House DD1, Street # 6, Jhanda Chichi, Rawalpindi, Pakistan.
 - Shifts: Morning Shift & Evening Shift (4 hours each).
-Mind Flare Academy is a full-scale educational institute in Rawalpindi offering classes from Nursery to Class 12 (Matric & Intermediate), entry test preparation (MDCAT/ECAT), digital skills short courses, and language/competitive exam coaching (IELTS/CSS/PMS).`
+Mind Flare Academy is a premier academic educational institute in Rawalpindi offering comprehensive coaching from Nursery to Class 12 (Matric & Intermediate all groups) and Bachelor's level subject support.`
   },
   {
     id: "kb-about-mission-vision",
@@ -23,14 +23,14 @@ Mind Flare Academy is a full-scale educational institute in Rawalpindi offering 
     category: "about",
     keywords: ["mission", "vision", "why choose", "values", "about", "teaching style", "concept"],
     content: `About Mind Flare Academy:
-Located in Jhanda Chichi, Rawalpindi, dedicated to helping students build strong academic foundations from the earliest years through university entry.
+Located in Jhanda Chichi, Rawalpindi, dedicated to helping students build strong academic foundations from the earliest years through intermediate board exams and university subject support.
 Mission:
 - Provide quality, affordable education to every student in our community.
 - Build conceptual clarity rather than encouraging cramming or rote learning.
-- Prepare students for board exams, entry tests, and future careers with confidence.
+- Prepare students for board exams and academic excellence with confidence.
 - Create a disciplined yet friendly learning environment.
 Vision:
-To become the leading academy in Rawalpindi known for producing top position holders in Matric, Intermediate, and MDCAT/ECAT entry tests, while equipping students with modern digital and language skills for the future job market.
+To become the leading academy in Rawalpindi known for producing top position holders in Matric and Intermediate board examinations while delivering conceptual clarity and academic brilliance.
 Why Choose Mind Flare Academy:
 - Experienced and qualified subject specialists for every grade level.
 - Separate morning and evening shifts (4 hours each) for maximum flexibility.
@@ -38,7 +38,7 @@ Why Choose Mind Flare Academy:
 - Regular tests, monthly assessments, and progress reports shared with parents.
 - Concept-based teaching with real exam-pattern practice.
 - Affordable fee structure with combo/group discounts.
-- Separate preparation tracks for Matric, Inter, MDCAT/ECAT, and short skill courses.
+- Separate preparation tracks for Primary, Middle, Matric, and Intermediate.
 - Free doubt-clearing sessions and extra classes before major exams.
 - Clean, safe, and disciplined academy environment.`
   },
@@ -73,82 +73,57 @@ Why Choose Mind Flare Academy:
 - Pre-Medical Group: Physics, Chemistry, Biology, English, Urdu
 - Pre-Engineering Group: Physics, Chemistry, Mathematics, English, Urdu
 - ICS (Computer Science) Group: Physics/Statistics, Mathematics, Computer Science, English, Urdu
-- Commerce Group: Principles of Accounting, Business Studies, Economics, Statistics, English, Urdu
+- Commerce Group (I.Com): Principles of Accounting, Business Studies, Economics, Statistics, English, Urdu
 - General Arts Group: English, Urdu, Islamiyat, Pakistan Studies + electives (Economics, Civics, Education, Psychology)`
   },
   {
-    id: "kb-classes-bachelor-entrytest",
-    section: "2. Bachelor Support & Entry Test Prep (MDCAT / ECAT)",
-    title: "Bachelor's Level Support and MDCAT / ECAT Entry Test Batches",
+    id: "kb-classes-bachelor",
+    section: "2. Bachelor Level Subject Support",
+    title: "Bachelor's Degree Subject-Wise Coaching & Support",
     category: "classes",
-    keywords: ["mdcat", "ecat", "entry test", "nust", "net", "fast", "giki", "bachelor", "bs", "university", "bs cs", "bba", "tutoring"],
-    content: `2.5 Bachelor's Level Support (BS 4-year):
+    keywords: ["bachelor", "bs", "university", "bs cs", "bba", "tutoring", "calculus", "linear algebra", "programming"],
+    content: `2.5 Bachelor's Level Subject Support (BS 4-year):
 - BS Computer Science / Software Engineering (Programming fundamentals, Calculus, Linear Algebra, semester exams)
 - BS Business Administration (BBA) (Accounting, Economics, Business Math & Stats)
 - BS Math / Physics / Chemistry / Biology / Zoology / Botany (Core tutoring)
 - BS English / Mass Communication (Assignment guidance, presentations)
 - B.Ed / ADE (Education) (Teaching methodology & subject coaching)
-Note: Provided as subject-wise tutoring/coaching (not a full degree program).
-
-2.6 Entry Test Preparation (MDCAT / ECAT):
-- MDCAT Preparation: Biology, Chemistry, Physics, English, Logical Reasoning (PMDC pattern)
-- ECAT Preparation: Mathematics, Physics, Chemistry/CS, English (UET pattern)
-- NUST NET / FAST NU / GIKI Entry Test batches
-- Weekly mock tests with merit-list style scoring and performance analysis
-- 6-8 weeks intensive crash courses or full 6-month programs.`
-  },
-  {
-    id: "kb-short-courses",
-    section: "3. Short Courses & Digital Skills Programs",
-    title: "Digital Skills, Freelancing, IT and Language Courses",
-    category: "courses",
-    keywords: ["courses", "short courses", "graphic designing", "web development", "python", "ai", "data science", "freelancing", "digital marketing", "wordpress", "ms office", "ielts", "spoken english", "css", "pms"],
-    content: `Short Courses & Digital Skills (Morning & Evening shifts, 4 hours sessions):
-- Graphic Designing (Photoshop, Illustrator, Canva) — 2 months (PKR 8,000 one-time)
-- Web Development (HTML, CSS, JavaScript basics) — 2 months (PKR 8,500 one-time)
-- Python Programming & Basics of AI — 6 weeks (PKR 6,500 one-time)
-- Data Science & Data Analysis Fundamentals — 2 months (PKR 9,000 one-time)
-- Freelancing & Digital Marketing (SEO, SMM) — 6 weeks (PKR 6,000 one-time)
-- WordPress & Basic Website Building — 4 weeks (PKR 5,000 one-time)
-- Microsoft Office (Word, Excel, PowerPoint) — 4 weeks (PKR 4,000 one-time)
-- IELTS Preparation (Academic & General, 4 modules) — 2 months (PKR 9,000 one-time)
-- Spoken English & Grammar Course — 6 weeks (PKR 5,000 one-time)
-- CSS / PMS Coaching — 3 months (PKR 12,000 one-time)`
+Note: Provided strictly as subject-wise tutoring/coaching (not a degree-awarding program).`
   },
   {
     id: "kb-shift-timings",
-    section: "4. Shift Timings",
+    section: "3. Shift Timings",
     title: "Morning & Evening Shift Hours and Schedules",
     category: "timings",
     keywords: ["shift", "timing", "hours", "morning", "evening", "time", "schedule", "when are classes"],
     content: `Shift Timings:
-- Morning Shift: 8:00 AM – 12:00 PM (4 hours duration) — Best suited for school-going students (afternoon/evening school) & short course learners.
-- Evening Shift: 3:00 PM – 7:00 PM (4 hours duration) — Best suited for school-going students (morning school) & working individuals.
-Note: Exact class timings for Nursery to Class 12 are adjusted within these shifts based on grade level and subject load. Extra classes and test days may be scheduled on weekends before major exams.`
+- Morning Shift: 8:00 AM – 12:00 PM (4 hours duration) — Ideal for afternoon/evening school/college students.
+- Evening Shift: 3:00 PM – 7:00 PM (4 hours duration) — Ideal for morning school/college students.
+Note: Exact class timings for Nursery to Class 12 and Bachelor support are adjusted within these shifts based on grade level and subject load. Extra classes and test sessions may be scheduled on weekends before board exams.`
   },
   {
     id: "kb-fees-primary-middle",
-    section: "5. Fee Structure (Primary & Middle)",
+    section: "4. Fee Structure (Primary & Middle)",
     title: "Pre-Primary, Primary and Middle Section Monthly Fees (PKR)",
     category: "fees",
     keywords: ["fee", "fees", "cost", "price", "primary fee", "nursery fee", "middle fee", "class 1 fee", "class 6 fee", "class 7 fee", "class 8 fee"],
-    content: `5.1 Pre-Primary & Primary (Nursery – Class 5) Monthly Fee:
+    content: `4.1 Pre-Primary & Primary (Nursery – Class 5) Monthly Fee:
 - Nursery / Prep (Play Group): PKR 2,500 / month
 - Class 1 – Class 2: PKR 3,000 / month
 - Class 3 – Class 5: PKR 3,500 / month
 
-5.2 Middle Section (Class 6 – Class 8) Monthly Fee (All Subjects):
+4.2 Middle Section (Class 6 – Class 8) Monthly Fee (All Subjects):
 - Class 6: PKR 4,000 / month
 - Class 7: PKR 4,500 / month
 - Class 8: PKR 5,000 / month`
   },
   {
     id: "kb-fees-matric",
-    section: "5.3 Fee Structure (Matric Class 9 & 10)",
+    section: "4.3 Fee Structure (Matric Class 9 & 10)",
     title: "Matric Section Subject-wise and Package Monthly Fees (PKR)",
     category: "fees",
     keywords: ["matric fee", "class 9 fee", "class 10 fee", "physics fee", "math fee", "biology fee", "chemistry fee", "full science package", "arts package"],
-    content: `5.3 Matric Section — Class 9 & Class 10 Fee:
+    content: `4.3 Matric Section — Class 9 & Class 10 Fee:
 Subject-wise Fee:
 - Physics: Class 9: PKR 2,300/mo | Class 10: PKR 2,500/mo
 - Chemistry: Class 9: PKR 2,300/mo | Class 10: PKR 2,500/mo
@@ -168,11 +143,11 @@ Discounted Full Package Deals:
   },
   {
     id: "kb-fees-intermediate",
-    section: "5.4 Fee Structure (Intermediate Class 11 & 12)",
+    section: "4.4 Fee Structure (Intermediate Class 11 & 12)",
     title: "Intermediate Section Subject-wise and Group Package Monthly Fees (PKR)",
     category: "fees",
     keywords: ["intermediate fee", "fsc fee", "class 11 fee", "class 12 fee", "pre-medical fee", "pre-engineering fee", "ics fee", "commerce fee", "arts fee"],
-    content: `5.4 Intermediate Section — Class 11 & Class 12 Fee:
+    content: `4.4 Intermediate Section — Class 11 & Class 12 Fee:
 Subject-wise Fee:
 - Physics: Class 11: PKR 2,800/mo | Class 12: PKR 3,000/mo
 - Chemistry: Class 11: PKR 2,800/mo | Class 12: PKR 3,000/mo
@@ -194,38 +169,22 @@ Discounted Group Packages:
 - General Arts Group (All electives combined): Class 11: PKR 7,500/mo | Class 12: PKR 8,000/mo`
   },
   {
-    id: "kb-fees-entry-and-other",
-    section: "5.5 & 5.6 Admission, Entry Test & Other Charges",
+    id: "kb-fees-admission-charges",
+    section: "4.5 Admission, Registration & Other Charges",
     title: "Admission Fee, Registration, Sibling Discount & Late Surcharge",
     category: "fees",
-    keywords: ["admission fee", "registration fee", "prospectus", "sibling discount", "late fee", "test series fee", "mdcat fee", "ecat fee", "discount", "surcharge"],
-    content: `5.5 Entry Test Prep & Short Courses (Fee):
-- MDCAT Preparation (Full Course, 6 months): PKR 35,000 (or PKR 6,500/month)
-- ECAT Preparation (Full Course, 6 months): PKR 32,000 (or PKR 6,000/month)
-- MDCAT / ECAT Crash Course (6-8 weeks): PKR 15,000 (one-time)
-- IELTS Preparation (2 months): PKR 9,000 (one-time)
-- Spoken English & Grammar (6 weeks): PKR 5,000 (one-time)
-- CSS / PMS Coaching (3 months): PKR 12,000 (one-time)
-- Graphic Designing (2 months): PKR 8,000 (one-time)
-- Web Development Basics (2 months): PKR 8,500 (one-time)
-- Python Programming & AI Basics (6 weeks): PKR 6,500 (one-time)
-- Data Science & Data Analysis (2 months): PKR 9,000 (one-time)
-- Freelancing & Digital Marketing (6 weeks): PKR 6,000 (one-time)
-- WordPress & Website Building (4 weeks): PKR 5,000 (one-time)
-- Microsoft Office (4 weeks): PKR 4,000 (one-time)
-
-5.6 Admission, Registration & Other Charges:
+    keywords: ["admission fee", "registration fee", "prospectus", "sibling discount", "late fee", "discount", "surcharge"],
+    content: `4.5 Admission, Registration & Other Charges:
 - Admission Fee (one-time): PKR 2,000 (Applicable for all new students, all levels)
 - Registration / Prospectus Fee: PKR 500 (One-time, includes academy prospectus & ID card)
 - Monthly Test Series (Matric/Inter, optional): PKR 500 (weekly quizzes + monthly full assessment)
-- MDCAT/ECAT Mock Test Series (optional add-on): PKR 1,500 (12 full-length mock papers with result analysis)
 - Sibling Discount: 10% off tuition (Applicable from the 2nd sibling onward)
 - Late Fee Payment Surcharge: PKR 200/week (Applied after the 10th of each month)
 - Policy: Fees are due by the 10th of every month. Fee once paid is non-refundable but adjustable against the next month in genuine cases.`
   },
   {
     id: "kb-admission-process",
-    section: "7. Admission Process",
+    section: "5. Admission Process",
     title: "How to Get Admission (6 Simple Steps & Required Documents)",
     category: "admissions",
     keywords: ["admission process", "how to apply", "how to join", "documents", "placement test", "deadline", "enrollment steps"],
@@ -234,22 +193,21 @@ Discounted Group Packages:
 - Step 2: Fill out admission form and submit a copy of latest result/mark sheet (for Class 6 and above) and 1 passport-size photo.
 - Step 3: Pay one-time Admission Fee (PKR 2,000) and Registration Fee (PKR 500).
 - Step 4: Choose preferred shift (Morning 8-12 or Evening 3-7) and subjects/group.
-- Step 5: Attend a free assessment/placement test (for Matric, Inter & entry test batches) to determine the right batch level.
+- Step 5: Attend a free assessment/placement test (for Matric & Intermediate classes) to determine the right batch level.
 - Step 6: Start classes! First month's tuition fee is due by the 10th of the admission month.
-Admissions are open throughout the year. Best time for Matric/Inter is March-April, and for MDCAT/ECAT batches right after 2nd year board exams (June-July).`
+Admissions are open throughout the year. Best time for Matric/Inter is March-April at session start.`
   },
   {
     id: "kb-facilities-policies",
-    section: "8 & 10. Facilities, Faculty & Academy Rules",
+    section: "6. Facilities, Faculty & Academy Rules",
     title: "Campus Facilities, Qualified Faculty, Attendance and Rules",
     category: "policies",
-    keywords: ["facilities", "cctv", "lab", "attendance", "rules", "faculty", "teachers", "mobile phone policy", "refund"],
+    keywords: ["facilities", "cctv", "attendance", "rules", "faculty", "teachers", "mobile phone policy", "refund"],
     content: `Facilities & Environment:
 - Well-lit, ventilated classrooms with proper seating
 - Separate morning & evening batches to prevent overcrowding
 - Whiteboard teaching with printed teacher handouts/notes
-- Dedicated test/exam halls for monthly assessments and mock tests
-- Basic computer lab setup for CS & digital skills short courses
+- Dedicated test/exam halls for monthly assessments
 - CCTV-monitored premises for student safety
 - Clean drinking water and washroom facilities
 - Parent-teacher communication through WhatsApp updates and periodic meetings
@@ -268,13 +226,13 @@ Academy Rules & Policies:
   },
   {
     id: "kb-faqs",
-    section: "11. Frequently Asked Questions (Official KB)",
+    section: "7. Frequently Asked Questions (Official KB)",
     title: "Complete Official FAQ Reference",
     category: "faqs",
     keywords: ["faq", "questions", "answers", "frequently asked", "inquiry", "help"],
     content: `Frequently Asked Questions:
 Q: What classes does Mind Flare Academy offer?
-A: We offer classes from Nursery to Class 12 (Matric & Intermediate all groups), entry test preparation (MDCAT/ECAT), Bachelor's-level subject tutoring, and short courses in digital skills, IELTS, and CSS/PMS.
+A: We offer classes from Nursery to Class 12 (covering Pre-Primary, Primary, Middle, Matric, and Intermediate all groups: Pre-Medical, Pre-Engineering, ICS, Commerce, Arts) as well as Bachelor's-level subject tutoring.
 
 Q: Where is Mind Flare Academy located?
 A: House DD1, Street # 6, Jhanda Chichi, Rawalpindi.
@@ -291,11 +249,8 @@ A: Subject-wise fees range from PKR 1,500 to PKR 2,500 per month. Full Science G
 Q: What is the fee for Intermediate (Class 11-12) subjects?
 A: Subject-wise fees range from PKR 1,800 to PKR 3,000/month. Full packages: Pre-Med/Pre-Eng PKR 9,500 (1st yr) / 10,000 (2nd yr), ICS PKR 9,000/9,500, Commerce PKR 8,500/9,000, Arts PKR 7,500/8,000.
 
-Q: Do you offer MDCAT/ECAT preparation?
-A: Yes. Full 6-month MDCAT (PKR 35,000 or 6,500/mo) and ECAT (PKR 32,000 or 6,000/mo), plus 6-8 week crash courses (PKR 15,000) with weekly mock tests.
-
-Q: What short courses do you offer?
-A: Graphic Designing, Web Development, Python & AI Basics, Data Science, Freelancing & Digital Marketing, WordPress, Microsoft Office, IELTS, Spoken English, and CSS/PMS Coaching.
+Q: Do you offer Bachelor's level tutoring?
+A: Yes, we offer subject-wise coaching and tutoring for BS programs (BS CS, BBA, BS Math/Science, BS English, B.Ed).
 
 Q: Is there an admission fee?
 A: Yes, one-time Admission Fee PKR 2,000 and Registration/Prospectus Fee PKR 500.
@@ -352,8 +307,8 @@ export function retrieveRelevantChunks(query: string, topK: number = 3): Knowled
     if (normalizedQuery.includes("apply") || normalizedQuery.includes("admission") || normalizedQuery.includes("document") || normalizedQuery.includes("join")) {
       if (chunk.category === "admissions") score += 10;
     }
-    if (normalizedQuery.includes("course") || normalizedQuery.includes("python") || normalizedQuery.includes("web") || normalizedQuery.includes("graphic") || normalizedQuery.includes("ielts") || normalizedQuery.includes("css")) {
-      if (chunk.category === "courses") score += 10;
+    if (normalizedQuery.includes("matric") || normalizedQuery.includes("inter") || normalizedQuery.includes("fsc") || normalizedQuery.includes("ics") || normalizedQuery.includes("class") || normalizedQuery.includes("bachelor")) {
+      if (chunk.category === "classes") score += 10;
     }
 
     return { chunk, score };

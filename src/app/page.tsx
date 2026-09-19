@@ -5,7 +5,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import ClassesSection from "@/components/ClassesSection";
-import CoursesSection from "@/components/CoursesSection";
 import FeeStructureSection from "@/components/FeeStructureSection";
 import AdmissionSection from "@/components/AdmissionSection";
 import FaqSection from "@/components/FaqSection";
@@ -58,7 +57,6 @@ export default function HomePage() {
         />
         <About />
         <ClassesSection />
-        <CoursesSection />
         <FeeStructureSection />
         <AdmissionSection />
         <FaqSection onOpenChat={() => setIsChatOpen(true)} />

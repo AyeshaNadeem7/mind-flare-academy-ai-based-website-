@@ -19,7 +19,6 @@ export default function ClassesSection() {
     { id: "matric", label: "Matric (9-10)" },
     { id: "intermediate", label: "Intermediate (11-12)" },
     { id: "bachelor", label: "Bachelor Support" },
-    { id: "entry-test", label: "MDCAT / ECAT Prep" },
   ];
 
   const filteredClasses =
@@ -40,7 +39,7 @@ export default function ClassesSection() {
             Classes & Academic Coaching
           </h2>
           <p className="text-sm sm:text-base text-navy-800/80">
-            From early foundation years through BISE board exams, university entry tests, and BS semester tutoring.
+            From early foundation years through BISE board exams and BS semester subject tutoring.
           </p>
           <div className="w-20 h-1 bg-gradient-to-r from-flame-orange to-teal-accent mx-auto rounded-full" />
         </div>
@@ -157,10 +156,10 @@ export default function ClassesSection() {
         <div className="mt-12 bg-navy-900 text-white rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
           <div className="space-y-1 text-center md:text-left">
             <h4 className="font-serif font-bold text-xl sm:text-2xl text-flame-yellow">
-              Specialized MDCAT & ECAT Entrance Batches
+              Matric & Intermediate Board Exam Batches
             </h4>
             <p className="text-xs sm:text-sm text-navy-200 max-w-2xl">
-              Comprehensive 6-month preparation programs and intensive crash courses with full-length simulated mock exam tests.
+              Concept-based learning, chapter-wise mock assessments, past paper drills, and formula handbooks to secure top merit positions in BISE exams.
             </p>
           </div>
           <div className="flex items-center gap-3 flex-wrap justify-center">
@@ -171,12 +170,12 @@ export default function ClassesSection() {
               View Fee Details
             </a>
             <a
-              href="https://wa.me/923175790206?text=Hi,%20I%20want%20details%20about%20MDCAT%20/%20ECAT%20Batches."
+              href="https://wa.me/923175790206?text=Hi,%20I%20want%20details%20about%20Matric%20and%20Intermediate%20Admissions."
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-flame-orange to-flame-yellow text-navy-950 hover:brightness-110 shadow-flame-md whitespace-nowrap"
             >
-              Book Entry Test Seat
+              Enroll for Board Exams
             </a>
           </div>
         </div>

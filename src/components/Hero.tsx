@@ -46,15 +46,14 @@ export default function Hero({ onOpenChat, onOpenAuth }: HeroProps) {
                 Strengthen Concepts.
               </span>{" "}
               <br />
-              Conquer Board & Entry Exams.
+              Conquer Academic Exams.
             </h1>
 
             {/* Subheading / Description */}
             <p className="text-base sm:text-lg text-navy-800/90 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
               Mind Flare Academy provides premier academic coaching from{" "}
-              <strong className="font-semibold text-navy-900">Nursery to Class 12</strong> (Matric & Intermediate),
-              high-yield <strong className="font-semibold text-navy-900">MDCAT / ECAT</strong> entry test batches,
-              and in-demand <strong className="font-semibold text-navy-900">Digital Skills & IT Courses</strong> with flexible
+              <strong className="font-semibold text-navy-900">Nursery to Class 12</strong> (Matric & Intermediate)
+              and <strong className="font-semibold text-navy-900">Bachelor's Degree Subject Support</strong> with flexible
               Morning & Evening shifts.
             </p>
 
@@ -176,22 +175,22 @@ export default function Hero({ onOpenChat, onOpenAuth }: HeroProps) {
                     <div className="flex items-center gap-2.5">
                       <Award className="w-5 h-5 text-amber-500" />
                       <div>
-                        <p className="text-xs font-bold text-navy-900">MDCAT & ECAT Entry Test Prep</p>
-                        <p className="text-[11px] text-navy-700">6-Month Course & 6-8 Wk Crash Sessions</p>
+                        <p className="text-xs font-bold text-navy-900">Primary & Middle Section (Nur - 8)</p>
+                        <p className="text-[11px] text-navy-700">Core foundational coaching & exams</p>
                       </div>
                     </div>
-                    <span className="text-xs font-bold text-amber-600 bg-amber-100 px-2 py-0.5 rounded">Mock Tests</span>
+                    <span className="text-xs font-bold text-amber-600 bg-amber-100 px-2 py-0.5 rounded">Foundation</span>
                   </div>
 
                   <div className="flex items-center justify-between p-3 rounded-xl bg-white/80 border border-cream-300/80 hover:border-navy-900/40 transition">
                     <div className="flex items-center gap-2.5">
                       <Sparkles className="w-5 h-5 text-navy-800" />
                       <div>
-                        <p className="text-xs font-bold text-navy-900">Digital Skills: Python, Web, IELTS, Design</p>
-                        <p className="text-[11px] text-navy-700">4-Week to 2-Month practical courses</p>
+                        <p className="text-xs font-bold text-navy-900">Bachelor's Degree Support (BS)</p>
+                        <p className="text-[11px] text-navy-700">CS, Math, BBA, Sciences & Education</p>
                       </div>
                     </div>
-                    <span className="text-xs font-bold text-navy-900 bg-navy-100 px-2 py-0.5 rounded">Certifications</span>
+                    <span className="text-xs font-bold text-navy-900 bg-navy-100 px-2 py-0.5 rounded">Degree Prep</span>
                   </div>
                 </div>
 

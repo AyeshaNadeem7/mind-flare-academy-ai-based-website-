@@ -41,7 +41,7 @@ export default function AdmissionSection() {
     {
       num: "05",
       title: "Free Placement Test",
-      desc: "Attend a free diagnostic assessment (for Matric, Inter & Entry tests) to assign you to the right coaching batch.",
+      desc: "Attend a free diagnostic assessment (for Matric & Intermediate students) to assign you to the right coaching batch.",
     },
     {
       num: "06",
@@ -191,17 +191,7 @@ export default function AdmissionSection() {
                       <option value="Intermediate Class 12 (FSc Pre-Med / Pre-Eng)">Intermediate Class 12 (FSc Pre-Med / Pre-Eng)</option>
                       <option value="Intermediate (ICS Computer Science)">Intermediate (ICS Computer Science)</option>
                       <option value="Intermediate (I.Com Commerce)">Intermediate (I.Com Commerce)</option>
-                      <option value="MDCAT 6-Month Preparation">MDCAT 6-Month Preparation</option>
-                      <option value="ECAT 6-Month Preparation">ECAT 6-Month Preparation</option>
-                      <option value="MDCAT / ECAT Crash Course (6-8 Weeks)">MDCAT / ECAT Crash Course (6-8 Weeks)</option>
-                      <option value="Graphic Designing Short Course">Graphic Designing Short Course</option>
-                      <option value="Web Development Short Course">Web Development Short Course</option>
-                      <option value="Python & AI Basics Short Course">Python & AI Basics Short Course</option>
-                      <option value="Data Science & Analysis Short Course">Data Science & Analysis Short Course</option>
-                      <option value="Freelancing & Digital Marketing">Freelancing & Digital Marketing</option>
-                      <option value="IELTS Preparation Course">IELTS Preparation Course</option>
-                      <option value="Spoken English & Grammar">Spoken English & Grammar</option>
-                      <option value="CSS / PMS Coaching">CSS / PMS Coaching</option>
+                      <option value="Intermediate (FA General Arts)">Intermediate (FA General Arts)</option>
                       <option value="Bachelor (BS) Subject Tutoring">Bachelor (BS) Subject Tutoring</option>
                     </select>
                   </div>

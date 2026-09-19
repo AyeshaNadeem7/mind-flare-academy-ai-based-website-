@@ -53,9 +53,9 @@ export default function AdminDashboard() {
     },
     {
       id: "log-4",
-      query: "When do MDCAT and ECAT crash courses start?",
-      matchedSource: "Entry Test Prep",
-      responseSnippet: "MDCAT and ECAT batches run as full 6-month programs (PKR 35,000/32,000) or 6-8 week intensive crash courses (PKR 15,000)...",
+      query: "What subjects are included in FSc Pre-Medical?",
+      matchedSource: "Intermediate Classes",
+      responseSnippet: "FSc Pre-Medical includes Physics, Chemistry, Biology, English, and Urdu with full board test series...",
       timestamp: "Yesterday at 04:10 PM",
     },
   ]);

@@ -5,17 +5,16 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "https://mindflareacademy.vercel.app"),
   title: "Mind Flare Academy | Premier Coaching Institute in Rawalpindi",
   description:
-    "Mind Flare Academy in Jhanda Chichi, Rawalpindi offers concept-based coaching from Nursery to Class 12, MDCAT/ECAT entry test preparation, and digital skills courses in flexible Morning & Evening shifts.",
+    "Mind Flare Academy in Jhanda Chichi, Rawalpindi offers concept-based academic coaching from Nursery to Class 12 (Matric & Intermediate) and Bachelor's level degree support in flexible Morning & Evening shifts.",
   keywords: [
     "Mind Flare Academy",
     "Rawalpindi Academy",
     "Jhanda Chichi Coaching",
     "Matric Coaching Rawalpindi",
     "FSc ICS Coaching",
-    "MDCAT ECAT Prep",
-    "Graphic Design Rawalpindi",
-    "Web Development Course",
-    "IELTS Coaching Rawalpindi",
+    "Primary Middle Coaching Rawalpindi",
+    "BISE Rawalpindi Board Coaching",
+    "Bachelor Degree Tutoring Rawalpindi",
   ],
   authors: [{ name: "Mind Flare Academy" }],
   icons: {
@@ -24,7 +23,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Mind Flare Academy | Ignite Curiosity, Strengthen Concepts",
-    description: "Quality and affordable education in Rawalpindi from Nursery to Class 12, MDCAT/ECAT, and digital skills short courses.",
+    description: "Quality and affordable education in Rawalpindi from Nursery to Class 12 and Bachelor degree support.",
     url: "https://mindflareacademy.vercel.app",
     siteName: "Mind Flare Academy",
     images: [

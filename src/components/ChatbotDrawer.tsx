@@ -20,10 +20,10 @@ interface ChatbotDrawerProps {
 const QUICK_PROMPTS = [
   "What is the fee for Matric (Class 10) Science?",
   "What are the Morning & Evening shift timings?",
-  "Tell me about MDCAT & ECAT batches",
+  "What Intermediate (FSc / ICS) groups are offered?",
   "How to get admission in 6 steps?",
   "Do you offer a discount for siblings?",
-  "What digital short courses are available?",
+  "Tell me about Bachelor (BS) subject tutoring",
 ];
 
 // Helper to render formatted text with bold, bullets, and clean line breaks without raw markdown syntax
@@ -135,7 +135,7 @@ export default function ChatbotDrawer({ isOpen, onClose }: ChatbotDrawerProps) {
     {
       id: "welcome",
       sender: "assistant",
-      text: `Assalam-o-Alaikum! 🌟 Welcome to **Mind Flare Academy**!\n\nI am your AI Academic Counselor. Ask me anything about our **classes (Nursery to 12th)**, **MDCAT/ECAT entry test prep**, **digital short courses**, **fee structure**, or **shift timings** in Rawalpindi.\n\nHow may I help you today?`,
+      text: `Assalam-o-Alaikum! 🌟 Welcome to **Mind Flare Academy**!\n\nI am your AI Academic Counselor. Ask me anything about our **classes (Nursery to 12th)**, **Bachelor's support**, **fee structure**, or **shift timings** in Rawalpindi.\n\nHow may I help you today?`,
       timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
     },
   ]);
